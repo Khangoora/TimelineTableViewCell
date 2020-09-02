@@ -97,12 +97,13 @@ class TimelineTableViewController: UITableViewController {
             cell.viewsInStackView = []
         }
 
-        if let illustration = illustration {
-            cell.illustrationImageView.image = UIImage(named: illustration)
-        }
-        else {
-            cell.illustrationImageView.image = nil
-        }
+        cell.bubbleLabel.text = "12/2"
+//        if let illustration = illustration {
+//            cell.illustrationImageView.image = UIImage(named: illustration)
+//        }
+//        else {
+//            cell.illustrationImageView.image = nil
+//        }
    
         return cell
     }
